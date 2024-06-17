@@ -4,7 +4,7 @@ from pathlib import Path
 
 # Constants
 HOST = '127.0.0.1'
-PORT = 8081  
+PORT = 8080  
 BUFFER_SIZE = 1024
 
 # Splitting the commands given in the terminal on the client side
