@@ -24,7 +24,7 @@ This project involves implementing a simple file upload and download service and
 1. Create a directory structure to hold server and client files.
 2. Implement the server to support UPLOAD, DOWNLOAD, DELETE, and RENAME operations using sockets.
 3. Create client programs to test these operations.
-4. Ensure the server listens on port 8080.
+4. Ensure the server listens on port 8080, except for the deferred synchronous RPC server, which is on port 8081.
 
 ### Assignment-2: Multi-threaded File Server
 1. Modify the single-threaded server to handle multiple client connections using threads.
